@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Sicaab.Core.Domain.OrdenPago>
+
+@{
+    ViewData["Title"] = "Orden de Pago";
+}
+
+<h1>ORDEN DE PAGO</h1>
+
+<p>
+    <a asp-action="Create">Agregar Orden de Pago</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaVencimiento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaVencimiento)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdOrdenPago">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdOrdenPago">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdOrdenPago">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

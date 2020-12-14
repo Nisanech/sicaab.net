@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Sicaab.Core.Domain.OrdenCompra>
+
+@{
+    ViewData["Title"] = "Orden de Compra";
+}
+
+<h1>LISTA DE ORDENES DE COMPRA</h1>
+
+<p>
+    <a asp-action="Create">Agregar Arte</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumOrden)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdClienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPagoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumOrden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaSolicitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdClienteNavigation.Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPagoNavigation.Plazo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdOrdenCompra">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdOrdenCompra">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdOrdenCompra">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

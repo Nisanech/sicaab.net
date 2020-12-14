@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Sicaab.Core.Domain.Producto>
+
+@{
+    ViewData["Title"] = "Producto";
+}
+
+<h1>Producto</h1>
+
+<p>
+    <a asp-action="Create">Agregar Producto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VlrUnitario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdArteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VlrUnitario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdArteNavigation.Alto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.Categoria)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdProducto">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdProducto">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdProducto">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

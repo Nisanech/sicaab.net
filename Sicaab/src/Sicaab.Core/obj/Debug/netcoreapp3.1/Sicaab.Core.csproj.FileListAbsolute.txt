@@ -1,0 +1,12 @@
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\bin\Debug\netcoreapp3.1\Sicaab.Core.deps.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\bin\Debug\netcoreapp3.1\Sicaab.Core.runtimeconfig.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\bin\Debug\netcoreapp3.1\Sicaab.Core.runtimeconfig.dev.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\bin\Debug\netcoreapp3.1\Sicaab.Core.dll
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\bin\Debug\netcoreapp3.1\Sicaab.Core.pdb
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.csprojAssemblyReference.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.AssemblyInfoInputs.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.AssemblyInfo.cs
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.csproj.CoreCompileInputs.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.dll
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.pdb
+C:\Users\HEAN\Sicaab\src\Sicaab.Core\obj\Debug\netcoreapp3.1\Sicaab.Core.genruntimeconfig.cache

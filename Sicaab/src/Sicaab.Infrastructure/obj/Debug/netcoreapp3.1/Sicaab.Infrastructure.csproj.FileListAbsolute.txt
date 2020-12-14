@@ -1,0 +1,15 @@
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Infrastructure.deps.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Infrastructure.runtimeconfig.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Infrastructure.runtimeconfig.dev.json
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Infrastructure.dll
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Infrastructure.pdb
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Core.dll
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\bin\Debug\netcoreapp3.1\Sicaab.Core.pdb
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.csprojAssemblyReference.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.AssemblyInfo.cs
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.csproj.CopyComplete
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.dll
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.pdb
+C:\Users\HEAN\Sicaab\src\Sicaab.Infrastructure\obj\Debug\netcoreapp3.1\Sicaab.Infrastructure.genruntimeconfig.cache
